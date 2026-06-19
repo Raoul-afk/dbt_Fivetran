@@ -1,0 +1,7 @@
+Version: 2
+
+sources:
+  - name: Fivetran_MSSQL_Client
+    schema: sql_server_dbo
+    tables:
+      - name: clients
