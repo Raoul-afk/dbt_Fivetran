@@ -36,4 +36,6 @@ models:
       +materialized: view
     Fivetran_sql_server_dbo:
       +materialized: view
-
+    Fivetran_S3:
+      +materialized: view
+      +schema: s3_compatible_storage
