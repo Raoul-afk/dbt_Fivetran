@@ -5,3 +5,7 @@ sources:
     schema: sql_server_dbo
     tables:
       - name: clients
+  - name: Fivetran_MSSQL_Fournisseur
+    schema: s3_compatible_storage
+    tables:
+      - name: fournisseurs
